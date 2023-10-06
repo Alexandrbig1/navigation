@@ -43,3 +43,37 @@ html {
 .navigation:hover a {
     color: #888;
 }
+
+.navigation a:hover {
+    color: #fff;
+}
+
+.navigation a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30rem;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    color: #777;
+    border-radius: 50%;
+    opacity: 0;
+    z-index: -1;
+    letter-spacing: 50rem;
+    overflow: hidden;
+    transition: letter-spacing 0.5s, left 0.5s;
+}
+
+.navigation a:hover::before {
+    content: attr(data-text);
+    opacity: .7;
+    left: 50%;
+    letter-spacing: 1rem;
+    width: 180rem;
+    height: 180rem;
+}
