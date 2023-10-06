@@ -1,7 +1,7 @@
 # Animated Navigation Menu
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
-practising HTML & CSS skills while studying on [Udemy courses](https://www.udemy.com/) <img style="margin: 10px" src="https://findlogovector.com/wp-content/uploads/2022/04/udemy-logo-vector-2022.png" alt="HTML5" height="30" />
+practising HTML & CSS skills and collaborating on a team
 
 ## Languages and Tools:
 <div align="center">  
